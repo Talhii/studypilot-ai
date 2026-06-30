@@ -1,0 +1,41 @@
+"""Pydantic schema models for StudyPilot AI."""
+
+from app.models.schemas import (
+    ChatMessage,
+    ChatRequest,
+    ChatResponse,
+    DashboardStats,
+    DoubtItem,
+    DoubtSaveRequest,
+    ExamResultResponse,
+    ExamSubmissionPayload,
+    FileFormat,
+    FlashcardItem,
+    GenerateRequest,
+    GenerationResult,
+    GenerationType,
+    MaterialSummary,
+    QuizQuestionItem,
+    UploadResponse,
+    UserProfile,
+)
+
+__all__ = [
+    "ChatMessage",
+    "ChatRequest",
+    "ChatResponse",
+    "DashboardStats",
+    "DoubtItem",
+    "DoubtSaveRequest",
+    "ExamResultResponse",
+    "ExamSubmissionPayload",
+    "FileFormat",
+    "FlashcardItem",
+    "GenerateRequest",
+    "GenerationResult",
+    "GenerationType",
+    "MaterialSummary",
+    "QuizQuestionItem",
+    "UploadResponse",
+    "UserProfile",
+]
